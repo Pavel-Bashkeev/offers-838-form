@@ -1,0 +1,19 @@
+.answer{
+  margin-bottom: 35px;
+  &__text{
+    font: 400 16px/18px var(--font-second);
+    color: $black;
+    &:not(:last-child){
+      margin-bottom: 20px;
+    }
+  }
+  &__name{
+    font-weight: 700;
+    color: #004B5B;
+  }
+}
+@media (max-width: 480px) {
+  .answer{
+    padding: 0 15px;
+  }
+}

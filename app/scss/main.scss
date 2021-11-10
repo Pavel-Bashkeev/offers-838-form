@@ -1,0 +1,20 @@
+@import '../../node_modules/reset-css/sass/reset';
+@import './settings/classFrame';
+@import './settings/vars';
+@import './assets/mixins';
+@import './settings/fonts';
+@import './settings/global';
+
+@import './components/header';
+@import './components/main';
+@import './components/content';
+@import './components/hero';
+@import './components/question';
+@import './components/answer';
+@import './components/present';
+@import './components/doctor';
+@import './components/table';
+@import './components/author';
+@import './components/form';
+@import './components/sidebar';
+@import './components/comments';

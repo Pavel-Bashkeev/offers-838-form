@@ -1,0 +1,31 @@
+.table{
+  max-width: 680px;
+  border:1px solid $black;
+  margin: 0 auto 35px;
+  .row{
+    display: flex;
+    align-items: stretch;
+    &:not(:last-child){
+      border-bottom: 1px solid $black;
+    }
+    .col-item{
+      padding: 11px 5px;
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:not(:last-child){
+        border-right: 1px solid $black;
+      }
+      &__text{
+        text-align: center;
+        font: 700 16px/19px var(--font-second);
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  .table{
+    width: 95%;
+  }
+}
